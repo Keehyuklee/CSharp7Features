@@ -7,7 +7,7 @@ namespace CSharp7
         public int ThrowExceptions()
         {
             //Throw expressions can be used in conditional operators and null coalescings.
-            //Null oalescing
+            //Null coalescing
             String input = Console.ReadLine() ?? throw new Exception("Exception");
 
             //Conditional operator
